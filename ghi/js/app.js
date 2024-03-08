@@ -16,7 +16,6 @@
           const detailResponse = await fetch(detailUrl);
           if (detailResponse.ok) {
             const details = await detailResponse.json();
-            console.log(details);
             const title = details.conference.name;
             const conferenceName = details.conference.location.name;
             const description = details.conference.description;

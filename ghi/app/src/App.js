@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
 import AttendConferenceForm from "./AttendConferenceForm";
 import PresentationForm from "./PresentationForm";
+import MainPage from "./MainPage";
+
 
 
 
